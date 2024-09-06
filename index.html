@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Blog</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/form.css" />
+  </head>
+  <body>
+    <div class="container dark">
+      <header>
+        <h1>Welcome to the blog spot</h1>
+        <label class="switch">
+          <input type="checkbox" id="theme" />
+          <span class="slider round"></span>
+        </label>
+      </header>
+      <section>
+        <h2>Whats on your mind</h2>
+        <form>
+          <label for="Username">User name</label>
+          <input type="text" id="username" name="Username" /><br /><br />
+          <label for="blog">Blog title</label>
+          <input type="text" id="blogtitle" name="blog title" /><br /><br />
+          <label for="content">Content</label>
+          <textarea type="text" id="content" name="content"></textarea>
+          <div id="msg"></div>
+        </form>
+      </section>
+      <section>
+        <button id="summitbtn" class="btn">Submit</button>
+      </section>
+
+      <script src="./assets/JS/form.js"></script>
+      <script src="./assets/JS/logic.js"></script>
+    </div>
+  </body>
+</html>
