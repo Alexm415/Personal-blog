@@ -9,3 +9,8 @@ When the user in puts their info to the boxes it than displays them in another p
 ## Credits
 
 The Xpert learning assistant help me see why the code was not working as it should. Office hours help me alot with this work.
+
+## Images
+
+![alt text](./assets/Images/Screenshot%202024-09-15%20at%207.38.50 PM.png)
+![alt text](./assets/Images/Screenshot%202024-09-15%20at%207.39.10 PM.png)
